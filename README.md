@@ -22,3 +22,19 @@ La idea es crear una plataforma web responsive que contenga los eventos por fech
 Valeria Alvarez
 Hassler Isaac
 Maher Herrera
+
+
+### Librerias: 
+- npm install @material-ui/icons
+- npm install @material-ui/core
+- npm install --save clsx
+- npm install --save prop-types
+- npm install react-router-dom    //No confirmado
+- npm install validator
+- npm install --save react-final-form final-form
+- npm install classnames
+- npm install core components  //No confirmado
+- npm install --save-dev node-sass
+- npm install node-sass --save   //Revisar
+
+
