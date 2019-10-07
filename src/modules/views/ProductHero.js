@@ -7,7 +7,7 @@ import ProductHeroLayout from './ProductHeroLayout';
 import { relative } from 'path';
 
 const backgroundI =
-  './imagenes/google.jpg';
+  'https://images.unsplash.com/photo-1567021004913-cb9db3569e0e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80';
 
  const styles = theme => ({
   background: {
@@ -50,10 +50,10 @@ function ProductHero(props) {
         component="a"
         href="/premium-themes/onepirate/sign-up/"
       >
-        Register
+        Registrate
       </Button>
       <Typography variant="body2" color="inherit" className={classes.more}>
-        Discover the experience
+        ¡Descubre todas las aventuras que barranquilla te ofrece!
       </Typography>
     </ProductHeroLayout>
   );

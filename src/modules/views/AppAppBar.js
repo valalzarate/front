@@ -5,11 +5,7 @@ import { withStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 import AppBar from '../components/AppBar';
 import Toolbar, { styles as toolbarStyles } from '../components/Toolbar';
-//import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-//import { MemoryRouter as Router } from 'react-router';
-import SignUp from './SignUp';
 
-//const SignUp1 = React.forwardRef((props, ref) => <RouterLink innerRef={ref} to="./SignUp" {...props} />);
 const styles = theme => ({
   title: {
     fontSize: 24,
@@ -46,20 +42,17 @@ function AppAppBar(props) {
     <div>
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
-          
-        
           <div className={classes.left} />
           <Link
             variant="h6"
             underline="none"
             color="inherit"
             className={classes.title}
-            href="C:\Users\Vale\Desktop\FrontEnd\Proyecto_FrontEnd-master\src\Home.js" 
+            href="/premium-themes/onepirate/"
           >
-            {'Donde está el vacile'}
+            {'onepirate'}
           </Link>
           <div className={classes.right}>
-
             <Link
               color="inherit"
               variant="h6"
@@ -68,18 +61,16 @@ function AppAppBar(props) {
               href="/premium-themes/onepirate/sign-in/"
             >
               {'Sign In'}
-            </Link >
-            <Link component={SignUp}
+            </Link>
+            <Link
               variant="h6"
               underline="none"
               className={clsx(classes.rightLink, classes.linkSecondary)}
-              href="/SignUp/"
+              href="/premium-themes/onepirate/sign-up/"
             >
               {'Sign Up'}
             </Link>
           </div>
-
-
         </Toolbar>
       </AppBar>
       <div className={classes.placeholder} />

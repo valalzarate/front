@@ -26,6 +26,7 @@ const styles = theme => ({
   },
   cardContent: {
     maxWidth: 400,
+    justifyContent: 'center',
   },
   textField: {
     width: '100%',
@@ -78,14 +79,14 @@ function ProductCTA(props) {
           <div className={classes.card}>
             <form onSubmit={handleSubmit} className={classes.cardContent}>
               <Typography variant="h2" component="h2" gutterBottom>
-                Receive offers
+                Receive Noticicaciones
               </Typography>
               <Typography variant="h5">
-                Taste the holidays of the everyday close to home.
+                Lo mejor esestar al tanto de todo lo que pasa en barranquilla.
               </Typography>
               <TextField noBorder className={classes.textField} placeholder="Your email" />
               <Button type="submit" color="primary" variant="contained" className={classes.button}>
-                Keep me updated
+                Quiero estar al dia
               </Button>
             </form>
           </div>
@@ -104,7 +105,7 @@ function ProductCTA(props) {
       <Snackbar
         open={open}
         onClose={handleClose}
-        message="We will send you our best offers, once a week."
+        message="Te enviaremos los mejores eventos programados semanalmente"
       />
     </Container>
   );
